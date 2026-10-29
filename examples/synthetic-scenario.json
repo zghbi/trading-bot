@@ -1,0 +1,10 @@
+{
+  "data_origin": "SYNTHETIC_ONLY",
+  "description": "Manually invented events; no market history or production outputs.",
+  "events": [
+    {"kind": "signal", "sequence": 1, "id": "demo-a", "label": "Example A", "side": "buy", "reference_price": "100.00"},
+    {"kind": "signal", "sequence": 2, "id": "demo-b", "label": "Example B", "side": "sell", "reference_price": "101.00"},
+    {"kind": "close", "sequence": 3, "position_id": "demo-a"},
+    {"kind": "signal", "sequence": 4, "id": "demo-c", "label": "Example C", "side": "sell", "reference_price": "99.00"}
+  ]
+}
